@@ -22,3 +22,6 @@ button{
     border: none;
 }
 
+.block {
+    display: block;
+}
