@@ -25,7 +25,8 @@
 .navbar a,i{
   color: var(--color-white);
 }
-.navbar a{
+
+.nav-logo{
   font-size: 1.5rem;
 }
 
