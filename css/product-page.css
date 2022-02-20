@@ -24,7 +24,6 @@
     display: flex;
     flex-direction: column;
     align-items: center;
-    justify-content: ;
 }
   
 .slider input {
@@ -46,6 +45,7 @@
     vertical-align: -2px;
 }
 
+/* Products*/
 .products-wrapper{
     height: 100vh;
     width: auto;
