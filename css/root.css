@@ -1,3 +1,5 @@
+@import url("https://fonts.googleapis.com/css2?family=Lato:wght@100;300;400;700;900&display=swap");
+
 *, *::before, *::after{
     box-sizing: border-box;
     margin: none;
@@ -20,9 +22,7 @@
     --color-sidebar: #f0f8ff;
     --color-logout: #E81E61;
     
-
-
-
+    font-family: 'Lato', sans-serif;
 }
 body{
     margin: 0;
