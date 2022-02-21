@@ -2,7 +2,7 @@
     width: 100%;
     background-color: var(--color-black);
     padding: 1rem 1.5rem;
-    border-bottom: 0.3px solid white;
+    border-bottom: 0.3px solid var(--white);
     position: fixed;
     z-index: 1;
     left: 0;
@@ -37,7 +37,7 @@
   background-color: var(--color-primary);
 }
 .nav-btn.logout{
-  background-color: brown;
+  background-color: var(--color-logout);
 }
 .nav-btn:hover{
   cursor: pointer;

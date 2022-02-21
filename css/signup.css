@@ -1,10 +1,9 @@
-/* Colors not decided yet, will use variables later */
 .login-wrapper {
-    background-color: aliceblue;
+    background-color: var(--color-blue);
     margin: auto;
     margin-top: 25vh;
     width: 20rem;
-    box-shadow: 0px 0px 10px 1px rgb(20, 113, 194);
+    box-shadow: 0px 0px 10px 1px;
   }
   .login-wrapper h3 {
     text-align: center;
@@ -20,7 +19,7 @@
   
   .input-div input {
     border-radius: 2px;
-    padding: 0.2rem;
+    padding: 0.4rem 1.2rem;
     margin-top: 0.4rem;
     margin-bottom: 0.4rem;
   }
@@ -28,7 +27,7 @@
   .checkbox-div {
     display: flex;
     justify-content: space-between;
-    margin: 2rem; /*Remove later */
+    margin: 2rem; 
     width: 80%;
   }
   .vertical-align-checkbox {
@@ -49,8 +48,8 @@
     cursor: pointer;
     width: 100%;
     padding: 0.5rem 2rem;
-    background-color: cornflowerblue;
-    color: var(--color-white);
+    background-color: var(--black);
+    color: var(--white);
   }
   .login-div a {
     padding: 1rem;

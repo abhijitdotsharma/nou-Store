@@ -8,7 +8,7 @@
 .filter-container {
     letter-spacing: 0.8px;
     /* border: 1px solid black; */
-    background-color: aliceblue;
+    background-color: var(--color-sidebar);
     padding: 1.2rem;
     width: 100%;
     height: 100vh;
@@ -62,7 +62,7 @@
 }
 
 .card {
-    background-color: #EEE;
+    background-color: var(--color-white);
     width: 14rem;
     display: flex;
     flex-direction: column;
@@ -81,8 +81,8 @@
   }
   .card-badge {
     margin-top: 1rem;
-    background-color: var(--color-primary);
-    color: black;
+    background-color: var(--color-primary-100);
+    color: var(--color-black);
     position: absolute;
     left: 0rem;
     top: 0.5rem;
@@ -118,15 +118,15 @@
   
   .card-price .og-price {
     text-decoration: line-through;
-    color: grey;
+    color: var(--color-grey);
   }
   .card-price .disc-percent {
     color: var(--color-success);
   }
   .card button {
     border: none;
-    background-color: black;
-    color: var(--color-white);
+    background-color: var(--black);
+    color: var(--white); /*white here give better contrast compared to --color-white*/
     margin: 0.2rem 0.4rem;
     margin-bottom: 0.6rem;
     padding: 0.5rem 1rem;

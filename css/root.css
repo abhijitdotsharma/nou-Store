@@ -6,8 +6,22 @@
 
 :root{
     --color-primary : #9760d6;
+    --color-primary-100: #A066E3;
+    --color-blue: #6495ed;/*cornflower blue*/
+    
+    --white: #fff;
+    --black: #000;
     --color-white: #EEEEEE;
     --color-black: #0f1222;
+    --color-grey: #8f8c8c;
+    --color-yellow: #E8E61C;
+
+    
+    --color-sidebar: #f0f8ff;
+    --color-logout: #8f1007;
+    
+
+
 
 }
 body{
